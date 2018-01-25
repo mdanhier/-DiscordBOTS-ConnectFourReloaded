@@ -11,5 +11,5 @@ module.exports.run = async (bot, message, args) => {
 module.exports.config = {
 	command: "create",
 	description :"simply create a room",
-	args: 0
+	args: [{type: "mention", optional: true}]
 };
