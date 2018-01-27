@@ -1,13 +1,12 @@
 var discord = require("discord.js");
 var module = require("./module.js");
-var loadPlugins = require("../../bot.js")
 
 exports.run = async (bot, message, args) => {
-		message.channel.send("Room created");
-};
+	message.channel.send("gg2")
+}
 
 exports.config = {
-	command: "create",
-	description :"simply create a room",
+	command: "test",
+	description :"what did you expect ? It's a test",
 	module: module.config
 };
